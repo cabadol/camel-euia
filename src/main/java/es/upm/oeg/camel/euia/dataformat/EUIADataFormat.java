@@ -1,7 +1,7 @@
-package es.upm.oeg.camel.dataformat.euia;
+package es.upm.oeg.camel.euia.dataformat;
 
 
-import es.upm.oeg.camel.model.Context;
+import es.upm.oeg.camel.euia.model.Context;
 import org.apache.camel.Exchange;
 import org.apache.camel.spi.DataFormat;
 import org.apache.camel.util.ExchangeHelper;

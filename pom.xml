@@ -104,7 +104,7 @@
         <extensions>true</extensions>
         <configuration>
             <instructions>
-            <Bundle-SymbolicName>es.upm.oeg.camel.component.camel-euia</Bundle-SymbolicName>
+            <Bundle-SymbolicName>es.upm.oeg.camel.euia.component.camel-euia</Bundle-SymbolicName>
             <Export-Service>org.apache.camel.spi.ComponentResolver;component=euia</Export-Service>
           </instructions>
         </configuration>

@@ -1,4 +1,4 @@
-package es.upm.oeg.camel.model;
+package es.upm.oeg.camel.euia.model;
 
 import lombok.Data;
 

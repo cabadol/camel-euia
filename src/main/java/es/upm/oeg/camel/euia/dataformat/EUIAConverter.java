@@ -1,8 +1,8 @@
-package es.upm.oeg.camel.dataformat.euia;
+package es.upm.oeg.camel.euia.dataformat;
 
 
 import com.google.gson.Gson;
-import es.upm.oeg.camel.model.Context;
+import es.upm.oeg.camel.euia.model.Context;
 import org.apache.camel.Converter;
 
 @Converter

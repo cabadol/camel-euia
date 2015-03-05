@@ -1,4 +1,4 @@
-package es.upm.oeg.camel.component;
+package es.upm.oeg.camel.euia.component;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
