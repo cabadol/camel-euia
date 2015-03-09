@@ -6,7 +6,7 @@
   <groupId>es.upm.oeg.camel</groupId>
   <artifactId>camel-euia</artifactId>
   <packaging>bundle</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 
   <name>Camel Epnoi UIA Component</name>
     <inceptionYear>2015</inceptionYear>
@@ -17,6 +17,7 @@
     </organization>
 
   <properties>
+      <amqp.client.version>3.4.4</amqp.client.version>
       <github.global.server>github</github.global.server>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -72,13 +73,18 @@
         <artifactId>camel-gson</artifactId>
         <version>${camel.version}</version>
     </dependency>
+    <!-- AMQP Client Library -->
+    <dependency>
+        <groupId>com.rabbitmq</groupId>
+        <artifactId>amqp-client</artifactId>
+        <version>${amqp.client.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
     <defaultGoal>install</defaultGoal>
 
     <plugins>
-      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
